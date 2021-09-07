@@ -1,4 +1,4 @@
-# dg_forex_scraper
+# export-excel
 
 ### デプロイ方法
 Dockerが動作している状態で、ターミナルを開き(Windows VScodeは Ctrl+Shift+Pキー)  
