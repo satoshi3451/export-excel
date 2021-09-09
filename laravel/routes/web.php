@@ -13,6 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/','Controller@index');
+
+Route::get('users/export', 'Controller@export')->name('users.export');
+
+// Excelインポート
+Route::post('/students_import','StudentsController@import')->name('import');
+Route::post('/students_export','StudentsController@export')->name('export'); //追加
