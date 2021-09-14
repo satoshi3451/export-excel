@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3ec5a2ddfc93e09d3bbc1dd274565e2e",
+    "content-hash": "5911a9067eeb1b53024646a3f96f1af1",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -6426,6 +6426,7 @@
             ],
             "description": "Provides a list of PHP built-in functions that operate on resources",
             "homepage": "https://www.github.com/sebastianbergmann/resource-operations",
+            "abandoned": true,
             "time": "2020-09-28T06:45:17+00:00"
         },
         {
